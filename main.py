@@ -12,6 +12,6 @@ for k in range(4):
     subloop.close()
     loop.update(1)
     #description = str(k)/"2500"
-    loop.set_description("Processing...")
+    loop.set_description(str(k) + "/4")
     time.sleep(1)
 loop.close()
